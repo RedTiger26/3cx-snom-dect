@@ -12,17 +12,17 @@ header('Content-Type: application/xml');
     <Title>3CX Menü</Title>
     <MenuItem>
         <Name>Nebenstelle (<?php echo $PRESENCE[$ext_status['p']]; ?>)</Name>
-        <URL>http://3cx.dmz.atkrz.de/snom/3cx_presence.xml</URL>
+        <URL>http://<?php echo $_SERVER['HTTP_HOST']; ?>/snom/3cx_presence.xml</URL>
     </MenuItem>
 
     <MenuItem>
         <Name>Warteschleife (<?php echo $QUEUE[$ext_status['q']]; ?>)</Name>
-        <URL>http://3cx.dmz.atkrz.de/snom/3cx_queue.xml</URL>
+        <URL>http://<?php echo $_SERVER['HTTP_HOST']; ?>/snom/3cx_queue.xml</URL>
     </MenuItem>
 
     <MenuItem>
         <Name>3CX Nebenstellen</Name>
-        <URL>http://3cx.dmz.atkrz.de/snom/3cx_ext.php?EXT=<?php echo $_GET['EXT']; ?></URL>
+        <URL>http://<?php echo $_SERVER['HTTP_HOST']; ?>/snom/3cx_ext.php?EXT=<?php echo $_GET['EXT']; ?></URL>
     </MenuItem>
 </SnomIPPhoneMenu>
 <?php
