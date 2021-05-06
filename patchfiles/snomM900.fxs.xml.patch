@@ -1,0 +1,22 @@
+--- snomM900.fxs.xml    2021-03-30 11:14:29.113038469 +0200
++++ snomM900.fxs.xml.new        2021-05-06 17:03:20.428347636 +0200
+@@ -397,15 +397,16 @@
+ <!--###                PhoneBook Settings                ###-->
+ <!--########################################################-->
+
+-       <phonebook_server_location>0</phonebook_server_location>
++       <phonebook_server_location>3</phonebook_server_location>
+        <phonebook_reload_time>1800</phonebook_reload_time>
++       <xml_minibrowser_add_info_to_url>63</xml_minibrowser_add_info_to_url>
+
+        {IF network=LOCALLAN}
+                <phonebook_location>%%PROVLINKLOCAL%%/</phonebook_location>
+-               <phonebook_filename>snom_phonebook.xml</phonebook_filename>
++               <phonebook_filename>/snom/xmlbrowser.php</phonebook_filename>
+        {ELSE}
+                <phonebook_location>%%PROVLINK%%/</phonebook_location>
+-               <phonebook_filename>snom_phonebook.xml</phonebook_filename>
++               <phonebook_filename>/snom/xmlbrowser.php</phonebook_filename>
+        {ENDIF}
+
+ <!--########################################################-->
