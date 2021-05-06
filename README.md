@@ -1,6 +1,6 @@
-# 3cx-snom-dect
-3CX integration with Snom DECT XML Minibrowser
+*IMPORTANT: This repository is still work in progress. If you stumble upon it by accident, please be aware, not all components are fully tested. Use at your own risk.*
 
+# 3CX integration with Snom DECT XML Minibrowser
 To goal of these scripts is to create a menu on Snom DECT phones that provide essential 3CX functions to the users. The integration is using the XML minibrowser for DECT devices that was added in firmware version 5.00 of the Snom DECT series. More details can be found here:
 https://service.snom.com/display/wiki/XML+Minibrowser+for+DECT+M-Series
 
