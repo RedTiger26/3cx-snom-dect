@@ -1,0 +1,23 @@
+<SnomIPPhoneDirectory>
+  <Title>Nebenstellen-Status</Title>
+  <DirectoryEntry>
+    <Name>Verfügbar</Name>
+    <Telephone>*30</Telephone>
+  </DirectoryEntry>
+  <DirectoryEntry>
+    <Name>Abwesend</Name>
+    <Telephone>*31</Telephone>
+  </DirectoryEntry>
+  <DirectoryEntry>
+    <Name>Nicht stören</Name>
+    <Telephone>*32</Telephone>
+  </DirectoryEntry>
+  <DirectoryEntry>
+    <Name>Pause</Name>
+    <Telephone>*33</Telephone>
+  </DirectoryEntry>
+  <DirectoryEntry>
+    <Name>Urlaub</Name>
+    <Telephone>*34</Telephone>
+  </DirectoryEntry>
+</SnomIPPhoneDirectory>

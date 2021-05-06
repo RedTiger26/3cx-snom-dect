@@ -1,0 +1,11 @@
+<SnomIPPhoneDirectory>
+  <Title>Warteschleifen-Status</Title>
+  <DirectoryEntry>
+    <Name>Anmelden</Name>
+    <Telephone>*62</Telephone>
+  </DirectoryEntry>
+  <DirectoryEntry>
+    <Name>Abmelden</Name>
+    <Telephone>*63</Telephone>
+  </DirectoryEntry>
+</SnomIPPhoneDirectory>
