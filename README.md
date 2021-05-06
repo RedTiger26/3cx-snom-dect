@@ -16,4 +16,10 @@ Currently, the following functions are implemented:
 
 ### Patching template file for DECT base station
 The template files for the DECT base stations are located in this folder:
-/var/lib/3cxpbx/Instance1/Data/Http/Templates/fxs
+`/var/lib/3cxpbx/Instance1/Data/Http/Templates/fxs`
+
+Patch it like this:
+```
+wget https://raw.githubusercontent.com/RedTiger26/3cx-snom-dect/main/patchfiles/snomM900.fxs.xml.patch
+patch /var/lib/3cxpbx/Instance1/Data/Http/Templates/fxs/snomM900.fxs.xml snomM900.fxs.xml.patch
+```
