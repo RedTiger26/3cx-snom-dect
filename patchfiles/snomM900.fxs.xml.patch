@@ -7,7 +7,7 @@
 -       <phonebook_server_location>0</phonebook_server_location>
 +       <phonebook_server_location>3</phonebook_server_location>
         <phonebook_reload_time>1800</phonebook_reload_time>
-+       <xml_minibrowser_add_info_to_url>63</xml_minibrowser_add_info_to_url>
++       <xml_minibrowser_add_info_to_url>4</xml_minibrowser_add_info_to_url>
 
 -       {IF network=LOCALLAN}
 -               <phonebook_location>%%PROVLINKLOCAL%%/</phonebook_location>
